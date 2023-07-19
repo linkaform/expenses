@@ -17,11 +17,12 @@ def get_record_catalog_and_update_current_record( current_record ):
     catalog_id = catalog_data.get('id')
     catalog_obj_id = catalog_data.get('obj_id')
     res = lkf_api.search_catalog( lkm.catalog_id('solicitudes_de_gastos', 'id'), mango_query, jwt_settings_key='JWT_KEY')
+
     if not res:
         print('no se encontro el registro res=',res)
         return False
     for r in res:
-        cr.update_one({
+        update_res = cr.update_one({
             'folio': folio,
             'form_id': current_record['form_id'],
             'deleted_at': {'$exists': False}

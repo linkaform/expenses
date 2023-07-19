@@ -102,8 +102,8 @@
             <empty>False</empty>
             <fields_ruled>
                 <item>
-                    <field_id>649b4f99bf4cc1fab1133b76</field_id>
-                    <id>649b4f99bf4cc1fab1133b76</id>
+                    <field_id>{{catalog.moneda.obj_id}}</field_id>
+                    <id>{{catalog.moneda.obj_id}}</id>
                     <label>Moneda</label>
                     <type>catalog</type>
                 </item>
