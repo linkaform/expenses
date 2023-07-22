@@ -1,10 +1,14 @@
 <?xml version='1.0' encoding='utf-8'?>
 <lkf>
     <templates>[]</templates>
-    <confirmation>{}</confirmation>
+    <confirmation>
+        <message>¡Su información fue capturada!</message>
+        <redirect_url>default</redirect_url>
+        <button_message>Mandar respuestas</button_message>
+    </confirmation>
     <description />
-    <_rev>9-b3b84e5ec24b186e83ff1cfb6a518ac6</_rev>
-    <updated_at>2023-06-26T15:48:37.993000+00:00Z</updated_at>
+    <_rev>10-b7c9169384b8c4285b2d07f1af0ba4bb</_rev>
+    <updated_at>2023-07-03T00:33:01.199982+00:00Z</updated_at>
     <sync>
         <element_request>{}</element_request>
         <input_parameters>[]</input_parameters>
@@ -12,15 +16,29 @@
     <filters>{}</filters>
     <name>Catalogo de Empleados</name>
     <edit_public_records>False</edit_public_records>
-    <created_at>2023-06-26T15:48:37.993000+00:00Z</created_at>
-    <advanced_options>{}</advanced_options>
-    <catalog_id>104464</catalog_id>
-    <sync_last_update>None</sync_last_update>
-    <_id>6499b3556f2edb3da9155e37</_id>
-    <public>False</public>
+    <created_at>2023-07-03T00:33:01.199982+00:00Z</created_at>
+    <advanced_options>
+        <folio>
+            <config>False</config>
+            <required>False</required>
+            <manual>False</manual>
+        </folio>
+    </advanced_options>
     <catalog_pages>
         <item>
             <page_fields>
+                <item>
+                    <field_type>text</field_type>
+                    <required>True</required>
+                    <field_id>64bc0e865420d5645b4fbd26</field_id>
+                    <properties>
+                        <help_text>True</help_text>
+                        <send_email>False</send_email>
+                        <size>complete</size>
+                        <custom>None</custom>
+                    </properties>
+                    <label>Identificacion</label>
+                </item>
                 <item>
                     <field_type>text</field_type>
                     <properties>
@@ -30,11 +48,31 @@
                     </properties>
                     <catalog_fields>[]</catalog_fields>
                     <field_id>6092c0ebd8b748522446af26</field_id>
-                    <required>False</required>
+                    <required>True</required>
                     <fav>None</fav>
                     <related_catalog_key>[]</related_catalog_key>
                     <relation_type>None</relation_type>
                     <label>Nombre</label>
+                    <catalog>{}</catalog>
+                    <catalog_id>None</catalog_id>
+                    <view_fields>[]</view_fields>
+                    <options>[]</options>
+                    <related_catalog>None</related_catalog>
+                </item>
+                <item>
+                    <field_type>text</field_type>
+                    <properties>
+                        <send_email>False</send_email>
+                        <size>complete</size>
+                        <custom>None</custom>
+                    </properties>
+                    <catalog_fields>[]</catalog_fields>
+                    <field_id>64bc0e865420d5645b4fbd27</field_id>
+                    <required>False</required>
+                    <fav>None</fav>
+                    <related_catalog_key>[]</related_catalog_key>
+                    <relation_type>None</relation_type>
+                    <label>Nomina</label>
                     <catalog>{}</catalog>
                     <catalog_id>None</catalog_id>
                     <view_fields>[]</view_fields>
@@ -54,7 +92,7 @@
                     <fav>None</fav>
                     <related_catalog_key>[]</related_catalog_key>
                     <relation_type>None</relation_type>
-                    <label>Puesto</label>
+                    <label>Cargo</label>
                     <catalog>{}</catalog>
                     <catalog_id>None</catalog_id>
                     <view_fields>[]</view_fields>
@@ -83,8 +121,12 @@
                     <related_catalog>None</related_catalog>
                 </item>
             </page_fields>
-            <page_description>None</page_description>
             <page_name>Página 1</page_name>
+            <page_description>None</page_description>
         </item>
     </catalog_pages>
+    <sync_last_update>None</sync_last_update>
+    <_id>64a2173d9877b7c539547ae4</_id>
+    <public>False</public>
+    <catalog_id>104822</catalog_id>
 </lkf>

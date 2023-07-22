@@ -17,6 +17,7 @@ class Expenses():
     def __init__(self, cr, lkf_api, settings):
         self.lkf_api = lkf_api
         lkm = lkf_models.LKFModules(settings)
+        print('lkf moudles', lkm.catalog_id('solicitudes_de_gastos'))
         self.CATALOG_SOL_VIAJE = lkm.catalog_id('solicitudes_de_gastos')
         self.CATALOG_SOL_VIAJE_ID = self.CATALOG_SOL_VIAJE.get('id')
         self.CATALOG_SOL_VIAJE_OBJ_ID = self.CATALOG_SOL_VIAJE.get('obj_id')
@@ -74,6 +75,7 @@ class Expenses():
         if destino_de_viaje:
             mango_query['selector']['answers']['$and'].append({'610419b5d28657c73e36fcd4': {'$eq': destino_de_viaje}})
         res = self.lkf_api.search_catalog( self.CATALOG_SOL_VIAJE_ID, mango_query, jwt_settings_key='USER_JWT_PARENT')
+        print('destino', destino_de_viaje)
         print('mango_query',mango_query)
         print(' --- CATALOG_SOL_VIAJE_ID =',self.CATALOG_SOL_VIAJE_ID)
         if res and len(res) > 0:

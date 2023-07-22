@@ -102,17 +102,83 @@
             <empty>False</empty>
             <fields_ruled>
                 <item>
-                    <field_id>649b4f99bf4cc1fab1133b76</field_id>
-                    <id>649b4f99bf4cc1fab1133b76</id>
+                    <field_id>{{ catalog.moneda.obj_id}}</field_id>
+                    <id>64b773dc9df64bad252227aa</id>
                     <label>Moneda</label>
                     <type>catalog</type>
                 </item>
             </fields_ruled>
             <group_conditions>{}</group_conditions>
-            <name>mondea</name>
+            <name>mondeaaaaaaaaaaaa</name>
             <operator>or</operator>
             <rule_id>1743ade1111f8b</rule_id>
             <rule_type>show</rule_type>
+            <user_conditions>{}</user_conditions>
+        </item>
+        <item>
+            <conditions>
+                <item>
+                    <condition>iexact=</condition>
+                    <field>
+                        <field_id>61041b50d9ee55ab14965000</field_id>
+                        <id>61041b50d9ee55ab14965000</id>
+                        <label>Seleccion de Destino</label>
+                        <type>radio</type>
+                    </field>
+                    <value>otro</value>
+                </item>
+            </conditions>
+            <element_ids>[]</element_ids>
+            <empty>False</empty>
+            <fields_ruled>
+                <item>
+                    <field_id>61041b50d9ee55ab14965ba0</field_id>
+                    <id>61041b50d9ee55ab14965ba0</id>
+                    <label>Destino</label>
+                    <type>text</type>
+                </item>
+                <item>
+                    <field_id>61041c9a9242368dd3965da1</field_id>
+                    <id>61041c9a9242368dd3965da1</id>
+                    <label>Costo de Transportación</label>
+                    <type>decimal</type>
+                </item>
+            </fields_ruled>
+            <group_conditions>{}</group_conditions>
+            <name>Mostrar Otro Destino</name>
+            <operator>and</operator>
+            <rule_id>19bc195017311d33</rule_id>
+            <rule_type>show</rule_type>
+            <user_conditions>{}</user_conditions>
+        </item>
+        <item>
+            <conditions>
+                <item>
+                    <condition>iexact=</condition>
+                    <field>
+                        <field_id>61041b50d9ee55ab14965000</field_id>
+                        <id>61041b50d9ee55ab14965000</id>
+                        <label>Seleccion de Destino</label>
+                        <type>radio</type>
+                    </field>
+                    <value>otro</value>
+                </item>
+            </conditions>
+            <element_ids>[]</element_ids>
+            <empty>False</empty>
+            <fields_ruled>
+                <item>
+                    <field_id>61041b50d9ee55ab14965ba0</field_id>
+                    <id>61041b50d9ee55ab14965ba0</id>
+                    <label>Destino</label>
+                    <type>text</type>
+                </item>
+            </fields_ruled>
+            <group_conditions>{}</group_conditions>
+            <name>Requeir Destino</name>
+            <operator>and</operator>
+            <rule_id>1c612364a47125a</rule_id>
+            <rule_type>required</rule_type>
             <user_conditions>{}</user_conditions>
         </item>
     </rules>

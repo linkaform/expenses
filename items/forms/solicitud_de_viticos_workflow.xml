@@ -213,11 +213,11 @@
                                 <input>
                                     <field_type>None</field_type>
                                     <id>None</id>
-                                    <type />
+                                    <type>None</type>
                                     <value>None</value>
                                 </input>
                                 <output>
-                                    <id />
+                                    <id>None</id>
                                 </output>
                             </item>
                         </mapping>

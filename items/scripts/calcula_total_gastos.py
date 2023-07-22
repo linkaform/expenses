@@ -26,9 +26,11 @@ def get_total(current_record):
     propina = current_record['answers'].get('62914e2d855e9abc32eabc19', 0)
     expense_curreny = current_record['answers'].get(expense_obj.CATALOG_MONEDA_OBJ_ID , {}).get('62aa1fa92c20405af671d123')
     print('2 expense_obj', expense_obj)
+    print('2 CATALOG_SOL_VIAJE_OBJ_ID', expense_obj.CATALOG_SOL_VIAJE_OBJ_ID)
     info_catalog = current_record['answers'].get(expense_obj.CATALOG_SOL_VIAJE_OBJ_ID, {})
     folio = info_catalog.get('610419b5d28657c73e36fcd3', '')
     destino = info_catalog.get('610419b5d28657c73e36fcd4', '')
+    print('destino', destino)
     expense_obj.set_solicitud_catalog(folio, destino)
     print('solicitud', expense_obj.SOL_DATA)
     if not expense_obj.SOL_DATA:
@@ -77,6 +79,7 @@ if __name__ == '__main__':
     lkf_api = utils.Cache(settings)
     net = network.Network(settings)
     cr = net.get_collections()
+    print('cr' , cr)
     expense_obj = Expenses(cr, lkf_api, settings)
 
     config['PROTOCOL'] = 'https'

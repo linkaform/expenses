@@ -1,344 +1,36 @@
 <?xml version='1.0' encoding='utf-8'?>
 <lkf>
     <form_id>{{ form.autorizacin_de_viaticos.id }}</form_id>
-    <id>63a3713df8d6a0c916fa2a20</id>
+    <id>64b8141d7f73f08d48aaf37f</id>
     <rules>
         <item>
             <conditions>
                 <item>
                     <condition>in=</condition>
                     <field>
-                        <field_id>62952ab5ec3852e91f08d93b</field_id>
-                        <id>62952ab5ec3852e91f08d93b</id>
-                        <label>Estatus del gasto</label>
+                        <field_id>649b512cbf4cc1fab1133b7a</field_id>
+                        <id>649b512cbf4cc1fab1133b7a</id>
+                        <label>Tipo de Solicitud</label>
                         <type>select</type>
                     </field>
-                    <value>no_autorizado</value>
+                    <value>viatico</value>
                 </item>
             </conditions>
             <element_ids>[]</element_ids>
             <empty>False</empty>
             <fields_ruled>
                 <item>
-                    <field_id>62952ab5ec3852e91f08d93d</field_id>
-                    <id>62952ab5ec3852e91f08d93d</id>
-                    <label>Motivo no autorizado</label>
-                    <type>textarea</type>
-                </item>
-            </fields_ruled>
-            <group_conditions>{}</group_conditions>
-            <name>Mostrar motivo de no autorizado</name>
-            <operator>and</operator>
-            <rule_id>18e215b41e7e1a95</rule_id>
-            <rule_type>show</rule_type>
-            <user_conditions>{}</user_conditions>
-        </item>
-        <item>
-            <conditions>
-                <item>
-                    <condition>in=</condition>
-                    <field>
-                        <field_id>62952ab5ec3852e91f08d93b</field_id>
-                        <id>62952ab5ec3852e91f08d93b</id>
-                        <label>Estatus del gasto</label>
-                        <type>select</type>
-                    </field>
-                    <value>autorizado</value>
-                </item>
-            </conditions>
-            <element_ids>[]</element_ids>
-            <empty>False</empty>
-            <fields_ruled>
-                <item>
-                    <field_id>62952ab5ec3852e91f08d93c</field_id>
-                    <id>62952ab5ec3852e91f08d93c</id>
-                    <label>Monto autorizado</label>
-                    <type>decimal</type>
-                </item>
-            </fields_ruled>
-            <group_conditions>{}</group_conditions>
-            <name>Mostrar monto autorizado</name>
-            <operator>and</operator>
-            <rule_id>1b78246e231c2107</rule_id>
-            <rule_type>show</rule_type>
-            <user_conditions>{}</user_conditions>
-        </item>
-        <item>
-            <conditions>
-                <item>
-                    <condition>iexact=</condition>
-                    <field>
-                        <field_id>6295133afadaf9e529d5a096</field_id>
-                        <id>6295133afadaf9e529d5a096</id>
-                        <label>Origen del gasto</label>
-                        <type>radio</type>
-                    </field>
-                    <value>viajes</value>
-                </item>
-            </conditions>
-            <element_ids>[]</element_ids>
-            <empty>False</empty>
-            <fields_ruled>
-                <item>
-                    <field_id>628cf2f2e7c0166a99424c8e</field_id>
-                    <id>628cf2f2e7c0166a99424c8e</id>
-                    <label>Solicitud de viajes</label>
+                    <field_id>{{ catalog.moneda.obj_id}}</field_id>
+                    <id>64a2173e7963ac43d904674e</id>
+                    <label>Moneda de La Solicitud</label>
                     <type>catalog</type>
                 </item>
             </fields_ruled>
             <group_conditions>{}</group_conditions>
-            <name>Mostrar viajes</name>
+            <name>Moneda</name>
             <operator>and</operator>
-            <rule_id>9441689576dbf</rule_id>
+            <rule_id>24dcde62660159f</rule_id>
             <rule_type>show</rule_type>
-            <user_conditions>{}</user_conditions>
-        </item>
-        <item>
-            <conditions>
-                <item>
-                    <condition>not__empty=</condition>
-                    <field>
-                        <field_id>62954ccb8e54c96dc34995a5</field_id>
-                        <id>62954ccb8e54c96dc34995a5</id>
-                        <label>Estatus de la solicitud</label>
-                        <type>select</type>
-                    </field>
-                    <value> </value>
-                </item>
-                <item>
-                    <condition>is__empty=</condition>
-                    <field>
-                        <field_id>62954ccb8e54c96dc34995a5</field_id>
-                        <id>62954ccb8e54c96dc34995a5</id>
-                        <label>Estatus de la solicitud</label>
-                        <type>select</type>
-                    </field>
-                    <value> </value>
-                </item>
-            </conditions>
-            <element_ids>[]</element_ids>
-            <empty>False</empty>
-            <fields_ruled>
-                <item>
-                    <field_id>62954ead595be739d4d59f80</field_id>
-                    <id>62954ead595be739d4d59f80</id>
-                    <label>Monto global de la solicitud</label>
-                    <type>decimal</type>
-                </item>
-            </fields_ruled>
-            <group_conditions>{}</group_conditions>
-            <name>Monto global Readonly</name>
-            <operator>or</operator>
-            <rule_id>24ec1e9320e2596</rule_id>
-            <rule_type>disabled</rule_type>
-            <user_conditions>{}</user_conditions>
-        </item>
-        <item>
-            <conditions>
-                <item>
-                    <condition>in=</condition>
-                    <field>
-                        <field_id>62952ab5ec3852e91f08d93b</field_id>
-                        <id>62952ab5ec3852e91f08d93b</id>
-                        <label>Estatus del gasto</label>
-                        <type>select</type>
-                    </field>
-                    <value>autorizado</value>
-                </item>
-            </conditions>
-            <element_ids>[]</element_ids>
-            <empty>False</empty>
-            <fields_ruled>
-                <item>
-                    <field_id>62952ab5ec3852e91f08d93c</field_id>
-                    <id>62952ab5ec3852e91f08d93c</id>
-                    <label>Monto autorizado</label>
-                    <type>decimal</type>
-                </item>
-            </fields_ruled>
-            <group_conditions>{}</group_conditions>
-            <name>Requerir monto autorizado</name>
-            <operator>and</operator>
-            <rule_id>25b24fd23d325c0</rule_id>
-            <rule_type>required</rule_type>
-            <user_conditions>{}</user_conditions>
-        </item>
-        <item>
-            <conditions>
-                <item>
-                    <condition>in=</condition>
-                    <field>
-                        <field_id>62954ccb8e54c96dc34995a5</field_id>
-                        <id>62954ccb8e54c96dc34995a5</id>
-                        <label>Estatus de la solicitud</label>
-                        <type>select</type>
-                    </field>
-                    <value>autorizado_en_operaciones</value>
-                </item>
-            </conditions>
-            <element_ids>[]</element_ids>
-            <empty>False</empty>
-            <fields_ruled>
-                <item>
-                    <field_id>629a55dfa837158d85543612</field_id>
-                    <id>629a55dfa837158d85543612</id>
-                    <label>Aviso</label>
-                    <type>description</type>
-                </item>
-            </fields_ruled>
-            <group_conditions>{}</group_conditions>
-            <name>Mostrar aviso autorizacion</name>
-            <operator>and</operator>
-            <rule_id>21491b65a86da8</rule_id>
-            <rule_type>show</rule_type>
-            <user_conditions>{}</user_conditions>
-        </item>
-        <item>
-            <conditions>
-                <item>
-                    <condition>is__empty=</condition>
-                    <field>
-                        <field_id>62954ccb8e54c96dc34995a5</field_id>
-                        <id>62954ccb8e54c96dc34995a5</id>
-                        <label>Estatus de la solicitud</label>
-                        <type>select</type>
-                    </field>
-                    <value> </value>
-                </item>
-                <item>
-                    <condition>not__empty=</condition>
-                    <field>
-                        <field_id>62954ccb8e54c96dc34995a5</field_id>
-                        <id>62954ccb8e54c96dc34995a5</id>
-                        <label>Estatus de la solicitud</label>
-                        <type>select</type>
-                    </field>
-                    <value> </value>
-                </item>
-            </conditions>
-            <element_ids>[]</element_ids>
-            <empty>False</empty>
-            <fields_ruled>
-                <item>
-                    <field_id>63a341739b4ee2a01d48944a</field_id>
-                    <id>63a341739b4ee2a01d48944a</id>
-                    <label>Autorizador</label>
-                    <type>catalog</type>
-                </item>
-                <item>
-                    <field_id>62bf232626827cd253f9db16</field_id>
-                    <id>62bf232626827cd253f9db16</id>
-                    <label>Nombre</label>
-                    <type>catalog-select</type>
-                </item>
-                <item>
-                    <field_id>62952d3458c5b2f9b8d59fec</field_id>
-                    <id>62952d3458c5b2f9b8d59fec</id>
-                    <label>Empleado</label>
-                    <type>text</type>
-                </item>
-                <item>
-                    <field_id>62952d3458c5b2f9b8d59f01</field_id>
-                    <id>62952d3458c5b2f9b8d59f01</id>
-                    <label>Email empleado</label>
-                    <type>email</type>
-                </item>
-                <item>
-                    <field_id>62954ead595be739d4d59f80</field_id>
-                    <id>62954ead595be739d4d59f80</id>
-                    <label>Monto global de la solicitud</label>
-                    <type>decimal</type>
-                </item>
-                <item>
-                    <field_id>629a55dfa837158d85543612</field_id>
-                    <id>629a55dfa837158d85543612</id>
-                    <label>Aviso</label>
-                    <type>description</type>
-                </item>
-                <item>
-                    <field_id>6295133afadaf9e529d5a096</field_id>
-                    <id>6295133afadaf9e529d5a096</id>
-                    <label>Origen del gasto</label>
-                    <type>radio</type>
-                </item>
-                <item>
-                    <field_id>6296df808717058b58bfe656</field_id>
-                    <id>6296df808717058b58bfe656</id>
-                    <label>Folio Origen</label>
-                    <type>text</type>
-                </item>
-                <item>
-                    <field_id>628cf2f2e7c0166a99424c8e</field_id>
-                    <id>628cf2f2e7c0166a99424c8e</id>
-                    <label>Solicitud de viajes</label>
-                    <type>catalog</type>
-                </item>
-                <item>
-                    <field_id>6092c0ebd8b748522446af26</field_id>
-                    <id>6092c0ebd8b748522446af26</id>
-                    <label>Nombre</label>
-                    <type>catalog-select</type>
-                </item>
-                <item>
-                    <field_id>610419b5d28657c73e36fcd4</field_id>
-                    <id>610419b5d28657c73e36fcd4</id>
-                    <label>Destino</label>
-                    <type>catalog-select</type>
-                </item>
-                <item>
-                    <field_id>6295294c70d902f9e1499644</field_id>
-                    <id>6295294c70d902f9e1499644</id>
-                    <label>Fecha del gasto</label>
-                    <type>date</type>
-                </item>
-                <item>
-                    <field_id>6295294c70d902f9e1499645</field_id>
-                    <id>6295294c70d902f9e1499645</id>
-                    <label>Tipo de gasto</label>
-                    <type>radio</type>
-                </item>
-                <item>
-                    <field_id>62952a5132c50f852bc7a6fa</field_id>
-                    <id>62952a5132c50f852bc7a6fa</id>
-                    <label>Detalle del gasto</label>
-                    <type>textarea</type>
-                </item>
-                <item>
-                    <field_id>62952a5132c50f852bc7a6fb</field_id>
-                    <id>62952a5132c50f852bc7a6fb</id>
-                    <label>Subtotal</label>
-                    <type>decimal</type>
-                </item>
-                <item>
-                    <field_id>62952a5132c50f852bc7a6fc</field_id>
-                    <id>62952a5132c50f852bc7a6fc</id>
-                    <label>Impuestos</label>
-                    <type>decimal</type>
-                </item>
-                <item>
-                    <field_id>62952a5132c50f852bc7a6fd</field_id>
-                    <id>62952a5132c50f852bc7a6fd</id>
-                    <label>Total gasto</label>
-                    <type>decimal</type>
-                </item>
-                <item>
-                    <field_id>62952a5132c50f852bc7a6ff</field_id>
-                    <id>62952a5132c50f852bc7a6ff</id>
-                    <label>Forma de pago</label>
-                    <type>select</type>
-                </item>
-                <item>
-                    <field_id>63235521245fe2eb3ceaaa73</field_id>
-                    <id>63235521245fe2eb3ceaaa73</id>
-                    <label>¿Gasto facturado?</label>
-                    <type>radio</type>
-                </item>
-            </fields_ruled>
-            <group_conditions>{}</group_conditions>
-            <name>Read only campos origen de Delivery y Gastos de viaje</name>
-            <operator>or</operator>
-            <rule_id>21561b1f63c9f3</rule_id>
-            <rule_type>disabled</rule_type>
             <user_conditions>{}</user_conditions>
         </item>
     </rules>
