@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <lkf>
-    <form_id>{{ form.entrega_de_anticipo.id }}</form_id>
+    <form_id>{{ form.entrega_de_efectivo.id }}</form_id>
     <id>649e1d857880ff495300bfae</id>
     <workflows>
         <item>

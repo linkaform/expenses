@@ -103,7 +103,7 @@
             <fields_ruled>
                 <item>
                     <field_id>{{ catalog.moneda.obj_id}}</field_id>
-                    <id>64b773dc9df64bad252227aa</id>
+                    <id>64bd5ee5f3eeaac79345e02b</id>
                     <label>Moneda</label>
                     <type>catalog</type>
                 </item>
@@ -179,6 +179,118 @@
             <operator>and</operator>
             <rule_id>1c612364a47125a</rule_id>
             <rule_type>required</rule_type>
+            <user_conditions>{}</user_conditions>
+        </item>
+        <item>
+            <conditions>
+                <item>
+                    <condition>is__empty=</condition>
+                    <field>
+                        <field_id>61041b50d9ee55ab14965ba2</field_id>
+                        <id>61041b50d9ee55ab14965ba2</id>
+                        <label>Fecha de Salida</label>
+                        <type>date</type>
+                    </field>
+                    <value> </value>
+                </item>
+                <item>
+                    <condition>not__empty=</condition>
+                    <field>
+                        <field_id>61041b50d9ee55ab14965ba2</field_id>
+                        <id>61041b50d9ee55ab14965ba2</id>
+                        <label>Fecha de Salida</label>
+                        <type>date</type>
+                    </field>
+                    <value> </value>
+                </item>
+            </conditions>
+            <element_ids>[]</element_ids>
+            <empty>False</empty>
+            <fields_ruled>
+                <item>
+                    <field_id>61041d15d9ee55ab14965bb5</field_id>
+                    <id>61041d15d9ee55ab14965bb5</id>
+                    <label>Cantidad de Dias</label>
+                    <type>integer</type>
+                </item>
+                <item>
+                    <field_id>{{ catalog.solicitudes_de_gastos.obj_id}}</field_id>
+                    <id>64bd5eeaf3eeaac79345e02f</id>
+                    <label>Solicitud de viaje relacionado</label>
+                    <type>catalog</type>
+                </item>
+                <item>
+                    <field_id>610419b5d28657c73e36fcd3</field_id>
+                    <id>610419b5d28657c73e36fcd3</id>
+                    <label>Folio</label>
+                    <type>catalog-select</type>
+                </item>
+                <item>
+                    <field_id>62aa1ed283d55ab39a49bd2d</field_id>
+                    <id>62aa1ed283d55ab39a49bd2d</id>
+                    <label>Gastos de viaje</label>
+                    <type>group</type>
+                </item>
+                <item>
+                    <field_id>62aa1fa92c20405af671d120</field_id>
+                    <id>62aa1fa92c20405af671d120</id>
+                    <label>Folio</label>
+                    <type>text</type>
+                </item>
+                <item>
+                    <field_id>583d8e10b43fdd6a4887f55b</field_id>
+                    <id>583d8e10b43fdd6a4887f55b</id>
+                    <label>Fecha del Gasto</label>
+                    <type>date</type>
+                </item>
+                <item>
+                    <field_id>aaaa1fa92c20405af671d123</field_id>
+                    <id>aaaa1fa92c20405af671d123</id>
+                    <label>Moneda</label>
+                    <type>text</type>
+                </item>
+                <item>
+                    <field_id>aaaa1fa92c20405af671d122</field_id>
+                    <id>aaaa1fa92c20405af671d122</id>
+                    <label>Monteo en Ex</label>
+                    <type>decimal</type>
+                </item>
+                <item>
+                    <field_id>62aa1fa92c20405af671d122</field_id>
+                    <id>62aa1fa92c20405af671d122</id>
+                    <label>Monto</label>
+                    <type>decimal</type>
+                </item>
+                <item>
+                    <field_id>649b2a84dac4914e02aadb24</field_id>
+                    <id>649b2a84dac4914e02aadb24</id>
+                    <label>Concepto</label>
+                    <type>catalog-select</type>
+                </item>
+                <item>
+                    <field_id>{{ catalog.conceptos_de_gastos.obj_id}}</field_id>
+                    <id>64bd5ee1f3eeaac79345e029</id>
+                    <label>Tipo de Gasto</label>
+                    <type>catalog</type>
+                </item>
+                <item>
+                    <field_id>627bf0d5c651931d3c7eedd3</field_id>
+                    <id>627bf0d5c651931d3c7eedd3</id>
+                    <label>Monto Autorizado</label>
+                    <type>decimal</type>
+                </item>
+                <item>
+                    <field_id>62aa1fa92c20405af671d124</field_id>
+                    <id>62aa1fa92c20405af671d124</id>
+                    <label>Estatus</label>
+                    <type>select</type>
+                </item>
+            </fields_ruled>
+            <group_conditions>{}</group_conditions>
+            <name>Escoder Datos</name>
+            <operator>or</operator>
+            <rule_id>253248214873ed</rule_id>
+            <rule_type>invisible</rule_type>
             <user_conditions>{}</user_conditions>
         </item>
     </rules>

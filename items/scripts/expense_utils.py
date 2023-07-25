@@ -41,7 +41,7 @@ class Expenses():
         self.FORM_ID_SOLICITUD = lkm.form_id('solicitud_de_viticos','id')
         self.FORM_ID_AUTORIZACIONES = lkm.form_id('autorizacin_de_viaticos','id')
         self.FORM_ID_GASTOS_VIAJE = lkm.form_id('registros_de_gastos_de_viaje','id')
-        self.FORM_ID_ENTREGA_EFECTIVO = lkm.form_id('entrega_de_anticipo','id')
+        self.FORM_ID_ENTREGA_EFECTIVO = lkm.form_id('entrega_de_efectivo','id')
         self.FORM_ID_GASTOS = lkm.form_id('registros_de_gastos_de_viaje','id') #CAMBIAR POR SOLO GASTOS
         self.FORM_SOLICITUD_VIATICOS_ID = lkm.form_id('solicitud_de_viticos','id') 
         self.SOL_RECORD = None

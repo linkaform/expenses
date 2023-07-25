@@ -14,7 +14,7 @@
         <message>¡Su información fue capturada!</message>
         <redirect_url>default</redirect_url>
     </confirmation>
-    <created_at>1688344393.0</created_at>
+    <created_at>1690132210.0</created_at>
     <description />
     <edit_public_records>False</edit_public_records>
     <edit_registers>True</edit_registers>
@@ -131,6 +131,8 @@
                         <item>610419b5d28657c73e36fcd5</item>
                         <item>610419b5d28657c73e36fcd6</item>
                         <item>610419e33a05c520d90814d3</item>
+                        <item>610419b5d28657c73e36fcd4</item>
+                        <item>610419b5d28657c73e36fcd3</item>
                     </catalog_fields>
                     <catalog_relation>None</catalog_relation>
                     <default>False</default>
@@ -591,6 +593,7 @@
                     </catalog>
                     <catalog_fields>
                         <item>6092c0ebd8b748522446af28</item>
+                        <item>6092c0ebd8b748522446af26</item>
                     </catalog_fields>
                     <catalog_relation>None</catalog_relation>
                     <default>False</default>
@@ -821,7 +824,9 @@
                         </view_fields>
                         <view_index>0</view_index>
                     </catalog>
-                    <catalog_fields>[]</catalog_fields>
+                    <catalog_fields>
+                        <item>62aa1fa92c20405af671d123</item>
+                    </catalog_fields>
                     <catalog_relation>None</catalog_relation>
                     <default>False</default>
                     <default_value />
@@ -975,7 +980,9 @@
                         </view_fields>
                         <view_index>0</view_index>
                     </catalog>
-                    <catalog_fields>[]</catalog_fields>
+                    <catalog_fields>
+                        <item>649b2a84dac4914e02aadb24</item>
+                    </catalog_fields>
                     <catalog_relation>None</catalog_relation>
                     <default>False</default>
                     <default_value />
@@ -1638,13 +1645,13 @@
         <max_points>0</max_points>
     </grading>
     <has_voucher>False</has_voucher>
-    <name>Entrega de Anticipo</name>
+    <name>Entrega de Efectivo</name>
     <notification>
         <active>False</active>
     </notification>
     <process_ids>[]</process_ids>
     <public>False</public>
-    <resource_uri>/api/infosync/form/104828/</resource_uri>
+    <resource_uri>/api/infosync/form/105516/</resource_uri>
     <start_event_id>None</start_event_id>
     <template_conf>
         <account_id>None</account_id>
@@ -1664,5 +1671,5 @@
         <seconds_to_expire>None</seconds_to_expire>
         <welcome_text>None</welcome_text>
     </timer_config>
-    <updated_at>1689699350.0</updated_at>
+    <updated_at>1690218091.0</updated_at>
 </lkf>

@@ -194,7 +194,7 @@
                     <action_settings>{}</action_settings>
                     <configuration>
                         <assignTo>
-                            <catalog_field_id>63a341739b4ee2a01d48944a</catalog_field_id>
+                            <catalog_field_id>{{ catalog.responsable_de_autorizar_gastos.obj_id }}</catalog_field_id>
                             <field_id>62bf232626827cd253f9db17</field_id>
                             <field_type>catalog</field_type>
                             <group_type>Catálogo</group_type>
@@ -234,6 +234,100 @@
                 <wf_fields>
                     <operator>all</operator>
                     <triggers>[]</triggers>
+                </wf_fields>
+            </rules>
+        </item>
+        <item>
+            <actions>
+                <item>
+                    <_id>64beae79f3eeaac79345e4ef</_id>
+                    <action_id>2</action_id>
+                    <action_settings>{}</action_settings>
+                    <configuration>
+                        <form>
+                            <deleted_at>None</deleted_at>
+                            <id>{{ form.entrega_de_efectivo.id }}</id>
+                            <name>{{ form.entrega_de_efectivo.name }}</name>
+                        </form>
+                        <mapping>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>catalog</field_type>
+                                    <id>64bd5ee0f3eeaac79345e027</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>6092c0ebd8b748522446af26</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>decimal</field_type>
+                                    <id>649d02057880ff495300bcc1</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>610419e33a05c520d90814d3</id>
+                                </output>
+                            </item>
+                        </mapping>
+                    </configuration>
+                    <name>None</name>
+                </item>
+            </actions>
+            <id>64beae79f3eeaac79345e4f9</id>
+            <name>Rembolsar Efectivo</name>
+            <rules>
+                <metadata>
+                    <connection>[]</connection>
+                    <date>
+                        <period>
+                            <month>1</month>
+                            <selected>False</selected>
+                            <year>2014</year>
+                        </period>
+                        <range>
+                            <end>2023-07-24T06:00:00.000Z</end>
+                            <selected>False</selected>
+                            <start>2023-07-24T04:49:55.949Z</start>
+                        </range>
+                    </date>
+                    <grading>{}</grading>
+                    <user>[]</user>
+                </metadata>
+                <record>
+                    <created>True</created>
+                    <deleted>False</deleted>
+                    <edited>True</edited>
+                    <run_multiple_times>True</run_multiple_times>
+                    <runtime>after</runtime>
+                </record>
+                <wf_fields>
+                    <operator>all</operator>
+                    <triggers>
+                        <item>
+                            <condition>in=</condition>
+                            <form_id>None</form_id>
+                            <other_value>None</other_value>
+                            <prefix>answer</prefix>
+                            <trigger_field>
+                                <catalog>{}</catalog>
+                                <field_id>62954ccb8e54c96dc34995a5</field_id>
+                                <group>{}</group>
+                                <label>Estatus de la solicitud</label>
+                                <type>select</type>
+                            </trigger_field>
+                            <value>autorizado_en_cuentas_por_pagar</value>
+                        </item>
+                    </triggers>
                 </wf_fields>
             </rules>
         </item>
