@@ -23,6 +23,6 @@ if __name__ == '__main__':
     lkf_api = utils.Cache(settings)
     net = network.Network(settings)
     cr = net.get_collections()
-    expense_obj = Expenses(cr, lkf_api, settings)
+    expense_obj = Expenses(settings)
     expense_obj.autorizacion_viaticos(current_record.get('folio'))
 

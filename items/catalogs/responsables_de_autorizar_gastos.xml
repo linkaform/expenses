@@ -7,8 +7,8 @@
         <redirect_url>default</redirect_url>
     </confirmation>
     <description />
-    <_rev>8-e0a8d416b48bdeef62cf265c8fffb5c3</_rev>
-    <updated_at>2023-07-23T17:10:00.902266+00:00Z</updated_at>
+    <_rev>4-42ec866467cff78802a718ffa827a14e</_rev>
+    <updated_at>2023-08-01T18:39:35.303514+00:00Z</updated_at>
     <sync>
         <element_request>{}</element_request>
         <input_parameters>[]</input_parameters>
@@ -16,7 +16,7 @@
     <filters>{}</filters>
     <name>Responsables de autorizar gastos</name>
     <edit_public_records>False</edit_public_records>
-    <created_at>2023-07-23T17:10:00.902266+00:00Z</created_at>
+    <created_at>2023-08-01T18:39:35.303514+00:00Z</created_at>
     <advanced_options>
         <active>True</active>
         <folio>
@@ -77,7 +77,7 @@
         </item>
     </catalog_pages>
     <sync_last_update>None</sync_last_update>
-    <_id>64bd5ee8f3eeaac79345e02d</_id>
+    <_id>64c951678ba0b7a2e80b9836</_id>
     <public>False</public>
-    <catalog_id>105513</catalog_id>
+    <catalog_id>106257</catalog_id>
 </lkf>

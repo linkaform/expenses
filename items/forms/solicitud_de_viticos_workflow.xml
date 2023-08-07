@@ -331,7 +331,7 @@
                     <action_settings>{}</action_settings>
                     <configuration>
                         <assignTo>
-                            <catalog_field_id>{{ catalog.responsable_de_autorizar_gastos.obj_id }} </catalog_field_id>
+                            <catalog_field_id>{{ catalog.responsables_de_autorizar_gastos.obj_id }}</catalog_field_id>
                             <field_id>62bf232626827cd253f9db17</field_id>
                             <field_type>catalog</field_type>
                             <group_type>Catálogo</group_type>
@@ -615,7 +615,7 @@
                                 <label>Status</label>
                                 <type>select</type>
                             </trigger_field>
-                            <value>pendiente_autorizacion</value>
+                            <value>revisión_de_gastos</value>
                         </item>
                     </triggers>
                 </wf_fields>
@@ -674,6 +674,250 @@
                 <wf_fields>
                     <operator>all</operator>
                     <triggers>[]</triggers>
+                </wf_fields>
+            </rules>
+        </item>
+        <item>
+            <actions>
+                <item>
+                    <_id>64bed585798983a74e786a4d</_id>
+                    <action_id>2</action_id>
+                    <action_settings>{}</action_settings>
+                    <configuration>
+                        <form>
+                            <deleted_at>None</deleted_at>
+                            <id>{{ form.reservas_de_viaje.id }}</id>
+                            <name>{{ form.reservas_de_viaje.name }}</name>
+                        </form>
+                        <mapping>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>catalog</field_type>
+                                    <id>64bebf1e15ef34b0d4cd4e0c</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>64bebf1e15ef34b0d4cd4e0c</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>catalog-select</field_type>
+                                    <id>6092c0ebd8b748522446af26</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>6092c0ebd8b748522446af26</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>catalog-detail</field_type>
+                                    <id>6092c0ebd8b748522446af27</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>6092c0ebd8b748522446af27</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>catalog-detail</field_type>
+                                    <id>6092c0ebd8b748522446af28</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>6092c0ebd8b748522446af28</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>text</field_type>
+                                    <id>61041b50d9ee55ab14965ba0</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>61041b50d9ee55ab14965ba0</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>select</field_type>
+                                    <id>61041b50d9ee55ab14965ba4</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>61041b50d9ee55ab14965ba4</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>date</field_type>
+                                    <id>61041b50d9ee55ab14965ba2</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>61041b50d9ee55ab14965ba2</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>date</field_type>
+                                    <id>61041b50d9ee55ab14965ba3</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>61041b50d9ee55ab14965ba3</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <type>value_to_field</type>
+                                    <value>Pendiente</value>
+                                </input>
+                                <output>
+                                    <id>64b6d4cf9df64bad252221e1</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <type>value_to_field</type>
+                                    <value>Pendiente</value>
+                                </input>
+                                <output>
+                                    <id>64b6d3ff9df64bad25222157</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>textarea</field_type>
+                                    <id>64bf5da3422c5f52cd744c2e</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>64b6d3a09df64bad2522214b</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>geolocation</field_type>
+                                    <id>64bf5da3422c5f52cd744c2f</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>64b6d3a09df64bad2522214c</id>
+                                </output>
+                            </item>
+                            <item>
+                                <etl>
+                                    <conditions>[]</conditions>
+                                </etl>
+                                <input>
+                                    <field_type>datetime</field_type>
+                                    <id>64bf5da3422c5f52cd744c30</id>
+                                    <type>field_to_field</type>
+                                    <value>None</value>
+                                </input>
+                                <output>
+                                    <id>64b6d3a09df64bad2522214e</id>
+                                </output>
+                            </item>
+                        </mapping>
+                    </configuration>
+                    <name>Crear registro en Reserva de viaje</name>
+                </item>
+            </actions>
+            <id>64bed585798983a74e786a5f</id>
+            <name>Crea Reserva de viaje</name>
+            <rules>
+                <metadata>
+                    <connection>[]</connection>
+                    <date>
+                        <period>
+                            <month>1</month>
+                            <selected>False</selected>
+                            <year>2014</year>
+                        </period>
+                        <range>
+                            <end>2023-07-25T06:00:00.000Z</end>
+                            <selected>False</selected>
+                            <start>2023-07-24T19:39:02.795Z</start>
+                        </range>
+                    </date>
+                    <grading>{}</grading>
+                    <user>[]</user>
+                </metadata>
+                <record>
+                    <created>True</created>
+                    <deleted>False</deleted>
+                    <edited>True</edited>
+                    <run_multiple_times>False</run_multiple_times>
+                    <runtime>after</runtime>
+                </record>
+                <wf_fields>
+                    <operator>all</operator>
+                    <triggers>
+                        <item>
+                            <condition>in=</condition>
+                            <form_id>None</form_id>
+                            <other_value>None</other_value>
+                            <prefix>answer</prefix>
+                            <trigger_field>
+                                <catalog>{}</catalog>
+                                <field_id>61041d15d9ee55ab14965bb6</field_id>
+                                <group>{}</group>
+                                <label>Status</label>
+                                <type>select</type>
+                            </trigger_field>
+                            <value>autorizado</value>
+                        </item>
+                    </triggers>
                 </wf_fields>
             </rules>
         </item>

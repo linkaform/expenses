@@ -14,7 +14,7 @@
         <message>¡Su información fue capturada!</message>
         <redirect_url>default</redirect_url>
     </confirmation>
-    <created_at>1690132220.0</created_at>
+    <created_at>1690915279.0</created_at>
     <description />
     <edit_public_records>False</edit_public_records>
     <edit_registers>True</edit_registers>
@@ -707,7 +707,7 @@
                     <group>None</group>
                     <groups_fields>[]</groups_fields>
                     <help_text>Donde se va a recoger al usuario</help_text>
-                    <label>Direccion Orgien del Servicio</label>
+                    <label>Dirección Origen del Servicio</label>
                     <number_type>None</number_type>
                     <options>[]</options>
                     <properties>
@@ -774,6 +774,72 @@
                     <groups_fields>[]</groups_fields>
                     <help_text>None</help_text>
                     <label>Direccion del Servicio</label>
+                    <number_type>None</number_type>
+                    <options>[]</options>
+                    <properties>
+                        <body_payload>[]</body_payload>
+                        <color />
+                        <comment />
+                        <custom />
+                        <elements_ids>[]</elements_ids>
+                        <email_configuration>None</email_configuration>
+                        <enable_barcode>None</enable_barcode>
+                        <fieldId>[]</fieldId>
+                        <file_name />
+                        <file_name_array>[]</file_name_array>
+                        <help_text>False</help_text>
+                        <icon>{}</icon>
+                        <image_origin>None</image_origin>
+                        <input_parameter>[]</input_parameter>
+                        <max>None</max>
+                        <max_images_count>5</max_images_count>
+                        <metadata>[]</metadata>
+                        <method />
+                        <mime_types>[]</mime_types>
+                        <min>None</min>
+                        <min_images_count>0</min_images_count>
+                        <multi_selection>False</multi_selection>
+                        <notification>{}</notification>
+                        <number_of_decimals>2</number_of_decimals>
+                        <openChoice>False</openChoice>
+                        <parameters>[]</parameters>
+                        <pfd_print>always</pfd_print>
+                        <pfd_style>Tabla_respuestas</pfd_style>
+                        <selected>None</selected>
+                        <send_email>False</send_email>
+                        <send_record>False</send_record>
+                        <send_to_lkf>False</send_to_lkf>
+                        <service_name />
+                        <update_values>{}</update_values>
+                        <url />
+                        <visible_on />
+                        <wait_response>False</wait_response>
+                        <watermark_config>None</watermark_config>
+                        <watermark_enable>False</watermark_enable>
+                    </properties>
+                    <required>False</required>
+                    <rules>[]</rules>
+                    <show_for_rule>True</show_for_rule>
+                    <validations>{}</validations>
+                    <visible>True</visible>
+                </item>
+                <item>
+                    <affecting_rules>[]</affecting_rules>
+                    <buttons_ids>[]</buttons_ids>
+                    <catalog>None</catalog>
+                    <catalog_fields>[]</catalog_fields>
+                    <catalog_relation>None</catalog_relation>
+                    <default>False</default>
+                    <default_value />
+                    <descriptor>None</descriptor>
+                    <fav>False</fav>
+                    <field_id>64b6d3a09df64bad2522214e</field_id>
+                    <field_type>datetime</field_type>
+                    <grading_criteria>{}</grading_criteria>
+                    <group>None</group>
+                    <groups_fields>[]</groups_fields>
+                    <help_text>None</help_text>
+                    <label>Fecha y Hora programada</label>
                     <number_type>None</number_type>
                     <options>[]</options>
                     <properties>
@@ -906,72 +972,6 @@
                     <groups_fields>[]</groups_fields>
                     <help_text>None</help_text>
                     <label>Numero de Reservacion</label>
-                    <number_type>None</number_type>
-                    <options>[]</options>
-                    <properties>
-                        <body_payload>[]</body_payload>
-                        <color />
-                        <comment />
-                        <custom />
-                        <elements_ids>[]</elements_ids>
-                        <email_configuration>None</email_configuration>
-                        <enable_barcode>None</enable_barcode>
-                        <fieldId>[]</fieldId>
-                        <file_name />
-                        <file_name_array>[]</file_name_array>
-                        <help_text>False</help_text>
-                        <icon>{}</icon>
-                        <image_origin>None</image_origin>
-                        <input_parameter>[]</input_parameter>
-                        <max>None</max>
-                        <max_images_count>5</max_images_count>
-                        <metadata>[]</metadata>
-                        <method />
-                        <mime_types>[]</mime_types>
-                        <min>None</min>
-                        <min_images_count>0</min_images_count>
-                        <multi_selection>False</multi_selection>
-                        <notification>{}</notification>
-                        <number_of_decimals>2</number_of_decimals>
-                        <openChoice>False</openChoice>
-                        <parameters>[]</parameters>
-                        <pfd_print>always</pfd_print>
-                        <pfd_style>Tabla_respuestas</pfd_style>
-                        <selected>None</selected>
-                        <send_email>False</send_email>
-                        <send_record>False</send_record>
-                        <send_to_lkf>False</send_to_lkf>
-                        <service_name />
-                        <update_values>{}</update_values>
-                        <url />
-                        <visible_on />
-                        <wait_response>False</wait_response>
-                        <watermark_config>None</watermark_config>
-                        <watermark_enable>False</watermark_enable>
-                    </properties>
-                    <required>False</required>
-                    <rules>[]</rules>
-                    <show_for_rule>True</show_for_rule>
-                    <validations>{}</validations>
-                    <visible>True</visible>
-                </item>
-                <item>
-                    <affecting_rules>[]</affecting_rules>
-                    <buttons_ids>[]</buttons_ids>
-                    <catalog>None</catalog>
-                    <catalog_fields>[]</catalog_fields>
-                    <catalog_relation>None</catalog_relation>
-                    <default>False</default>
-                    <default_value />
-                    <descriptor>None</descriptor>
-                    <fav>False</fav>
-                    <field_id>64b6d3a09df64bad2522214e</field_id>
-                    <field_type>datetime</field_type>
-                    <grading_criteria>{}</grading_criteria>
-                    <group>None</group>
-                    <groups_fields>[]</groups_fields>
-                    <help_text>None</help_text>
-                    <label>Fecha y Hora programado</label>
                     <number_type>None</number_type>
                     <options>[]</options>
                     <properties>
@@ -1387,10 +1387,10 @@
                             <value>pendiente</value>
                         </item>
                         <item>
-                            <label>Confirmad</label>
+                            <label>Confirmada</label>
                             <points>None</points>
                             <selected>False</selected>
-                            <value>confirmad</value>
+                            <value>confirmada</value>
                         </item>
                     </options>
                     <properties>
@@ -1883,7 +1883,7 @@
     </notification>
     <process_ids>[]</process_ids>
     <public>False</public>
-    <resource_uri>/api/infosync/form/105518/</resource_uri>
+    <resource_uri>/api/infosync/form/106264/</resource_uri>
     <start_event_id>None</start_event_id>
     <template_conf>
         <account_id>None</account_id>
@@ -1903,5 +1903,5 @@
         <seconds_to_expire>None</seconds_to_expire>
         <welcome_text>None</welcome_text>
     </timer_config>
-    <updated_at>1690143511.0</updated_at>
+    <updated_at>1690915857.0</updated_at>
 </lkf>

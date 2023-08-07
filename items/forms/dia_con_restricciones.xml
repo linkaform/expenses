@@ -9,7 +9,7 @@
         <message>FORM_CAPTURED</message>
         <redirect_url>default</redirect_url>
     </confirmation>
-    <created_at>1690143178.0</created_at>
+    <created_at>1690915273.0</created_at>
     <description />
     <edit_public_records>False</edit_public_records>
     <edit_registers>True</edit_registers>
@@ -48,7 +48,7 @@
                     <default>False</default>
                     <default_value />
                     <descriptor>None</descriptor>
-                    <fav>False</fav>
+                    <fav>True</fav>
                     <field_id>64bd87faf3eeaac79345e091</field_id>
                     <field_type>date</field_type>
                     <grading_criteria>{}</grading_criteria>
@@ -121,7 +121,7 @@
     </notification>
     <process_ids>[]</process_ids>
     <public>False</public>
-    <resource_uri>/api/infosync/form/105521/</resource_uri>
+    <resource_uri>/api/infosync/form/106261/</resource_uri>
     <start_event_id>None</start_event_id>
     <template_conf>
         <account_id>None</account_id>
@@ -141,5 +141,5 @@
         <seconds_to_expire>None</seconds_to_expire>
         <welcome_text>None</welcome_text>
     </timer_config>
-    <updated_at>1690144831.0</updated_at>
+    <updated_at>1690915273.0</updated_at>
 </lkf>

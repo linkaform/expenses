@@ -3,14 +3,12 @@
     <advanced_options>
         <active>True</active>
         <folio>
-            <_id>form_104480</_id>
+            <_id>form_105760</_id>
             <config>True</config>
             <inc_by>1</inc_by>
-            <manual>False</manual>
             <next>41</next>
             <padding_zeros>4</padding_zeros>
             <prefix>%y%m</prefix>
-            <required>False</required>
             <suffix>None</suffix>
         </folio>
     </advanced_options>
@@ -20,7 +18,7 @@
         <message>¡Su Solicitud ha sido Recibida !</message>
         <redirect_url>default</redirect_url>
     </confirmation>
-    <created_at>1690132222.0</created_at>
+    <created_at>1690915280.0</created_at>
     <description />
     <edit_public_records>False</edit_public_records>
     <edit_registers>True</edit_registers>
@@ -480,29 +478,13 @@
                         <watermark_enable>False</watermark_enable>
                     </properties>
                     <required>False</required>
-                    <rules>
-                        <item>19bc195017311d33</item>
-                        <item>1c612364a47125a</item>
-                    </rules>
+                    <rules>[]</rules>
                     <show_for_rule>True</show_for_rule>
                     <validations>{}</validations>
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>19bc195017311d33</rule_id>
-                            <rule_index>3</rule_index>
-                            <rule_type>show</rule_type>
-                        </item>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>1c612364a47125a</rule_id>
-                            <rule_index>4</rule_index>
-                            <rule_type>required</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -561,7 +543,7 @@
                         <watermark_config>None</watermark_config>
                         <watermark_enable>False</watermark_enable>
                     </properties>
-                    <required>True</required>
+                    <required>False</required>
                     <rules>[]</rules>
                     <show_for_rule>True</show_for_rule>
                     <validations>{}</validations>
@@ -743,10 +725,7 @@
                         <watermark_enable>False</watermark_enable>
                     </properties>
                     <required>True</required>
-                    <rules>
-                        <item>253248214873ed</item>
-                        <item>253248214873ed</item>
-                    </rules>
+                    <rules>[]</rules>
                     <show_for_rule>True</show_for_rule>
                     <validations>{}</validations>
                     <visible>True</visible>
@@ -818,14 +797,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -976,14 +948,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>1743ade1111f8b</rule_id>
-                            <rule_index>2</rule_index>
-                            <rule_type>show</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>
                         <catalog_field_id>None</catalog_field_id>
@@ -1139,14 +1104,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>19bc195017311d33</rule_id>
-                            <rule_index>3</rule_index>
-                            <rule_type>show</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -1278,14 +1236,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>177b12a5fcc1d46</rule_id>
-                            <rule_index>1</rule_index>
-                            <rule_type>required</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -1421,27 +1372,30 @@
                     <buttons_ids>[]</buttons_ids>
                     <catalog>
                         <catalog_field_id>None</catalog_field_id>
-                        <catalog_id>{{ catalog.responsables_de_autorizar_gastos.id }}</catalog_id>
+                        <catalog_id>{{ catalog.catalogo_de_proyectos.id }}</catalog_id>
                         <field_type>None</field_type>
                         <filters>None</filters>
                         <geofence>None</geofence>
                         <last>False</last>
                         <related_catalog>{}</related_catalog>
                         <view_fields>
-                            <item>62bf232626827cd253f9db16</item>
+                            <item>64c979b37988241b10c14067</item>
+                            <item>64c979b37988241b10c14068</item>
                         </view_fields>
                         <view_index>0</view_index>
                     </catalog>
                     <catalog_fields>
-                        <item>62bf232626827cd253f9db17</item>
                         <item>62bf232626827cd253f9db16</item>
+                        <item>62bf232626827cd253f9db17</item>
+                        <item>64c979b37988241b10c14067</item>
+                        <item>64c979b37988241b10c14068</item>
                     </catalog_fields>
                     <catalog_relation>None</catalog_relation>
                     <default>False</default>
                     <default_value />
                     <descriptor>None</descriptor>
                     <fav>False</fav>
-                    <field_id>{{ catalog.responsables_de_autorizar_gastos.obj_id }}</field_id>
+                    <field_id>{{ catalog.catalogo_de_proyectos.obj_id }}</field_id>
                     <field_type>catalog</field_type>
                     <grading_criteria>{}</grading_criteria>
                     <group>None</group>
@@ -1501,12 +1455,12 @@
                     <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>
-                        <catalog_field_id>{{ catalog.responsables_de_autorizar_gastos.obj_id }}</catalog_field_id>
-                        <catalog_id>{{ catalog.responsables_de_autorizar_gastos.id }}</catalog_id>
+                        <catalog_field_id>{{ catalog.catalogo_de_proyectos.obj_id }}</catalog_field_id>
+                        <catalog_id>{{ catalog.catalogo_de_proyectos.id }}</catalog_id>
                         <field_type>text</field_type>
-                        <filters>None</filters>
+                        <filters />
                         <geofence>None</geofence>
-                        <last>True</last>
+                        <last>False</last>
                         <related_catalog>{}</related_catalog>
                         <view_fields>[]</view_fields>
                         <view_index>1</view_index>
@@ -1517,8 +1471,160 @@
                     <default_value />
                     <descriptor>None</descriptor>
                     <fav>False</fav>
-                    <field_id>62bf232626827cd253f9db16</field_id>
+                    <field_id>64c979b37988241b10c14067</field_id>
                     <field_type>catalog-select</field_type>
+                    <grading_criteria>{}</grading_criteria>
+                    <group>None</group>
+                    <groups_fields>[]</groups_fields>
+                    <help_text>None</help_text>
+                    <label>Nombre de Proyecto</label>
+                    <number_type>None</number_type>
+                    <options>[]</options>
+                    <properties>
+                        <body_payload>[]</body_payload>
+                        <color />
+                        <comment />
+                        <custom />
+                        <elements_ids>[]</elements_ids>
+                        <email_configuration>None</email_configuration>
+                        <enable_barcode>None</enable_barcode>
+                        <fieldId>[]</fieldId>
+                        <file_name />
+                        <file_name_array>[]</file_name_array>
+                        <help_text>False</help_text>
+                        <icon>{}</icon>
+                        <image_origin>None</image_origin>
+                        <input_parameter>[]</input_parameter>
+                        <max>None</max>
+                        <max_images_count>5</max_images_count>
+                        <metadata>[]</metadata>
+                        <method />
+                        <mime_types>[]</mime_types>
+                        <min>None</min>
+                        <min_images_count>0</min_images_count>
+                        <multi_selection>False</multi_selection>
+                        <notification>{}</notification>
+                        <number_of_decimals>2</number_of_decimals>
+                        <openChoice>False</openChoice>
+                        <parameters>[]</parameters>
+                        <pfd_print>always</pfd_print>
+                        <pfd_style>Tabla_respuestas</pfd_style>
+                        <selected>None</selected>
+                        <send_email>False</send_email>
+                        <send_record>False</send_record>
+                        <send_to_lkf>False</send_to_lkf>
+                        <service_name />
+                        <update_values>{}</update_values>
+                        <url />
+                        <visible_on />
+                        <wait_response>False</wait_response>
+                        <watermark_config>None</watermark_config>
+                        <watermark_enable>False</watermark_enable>
+                    </properties>
+                    <required>False</required>
+                    <rules>[]</rules>
+                    <show_for_rule>True</show_for_rule>
+                    <validations>{}</validations>
+                    <visible>True</visible>
+                </item>
+                <item>
+                    <affecting_rules>[]</affecting_rules>
+                    <buttons_ids>[]</buttons_ids>
+                    <catalog>
+                        <catalog_field_id>{{ catalog.catalogo_de_proyectos.obj_id }}</catalog_field_id>
+                        <catalog_id>{{ catalog.catalogo_de_proyectos.id }}</catalog_id>
+                        <field_type>text</field_type>
+                        <filters />
+                        <geofence>None</geofence>
+                        <last>True</last>
+                        <related_catalog>{}</related_catalog>
+                        <view_fields>[]</view_fields>
+                        <view_index>2</view_index>
+                    </catalog>
+                    <catalog_fields>[]</catalog_fields>
+                    <catalog_relation>None</catalog_relation>
+                    <default>False</default>
+                    <default_value />
+                    <descriptor>None</descriptor>
+                    <fav>False</fav>
+                    <field_id>64c979b37988241b10c14068</field_id>
+                    <field_type>catalog-select</field_type>
+                    <grading_criteria>{}</grading_criteria>
+                    <group>None</group>
+                    <groups_fields>[]</groups_fields>
+                    <help_text>None</help_text>
+                    <label>Código de Proyecto</label>
+                    <number_type>None</number_type>
+                    <options>[]</options>
+                    <properties>
+                        <body_payload>[]</body_payload>
+                        <color />
+                        <comment />
+                        <custom />
+                        <elements_ids>[]</elements_ids>
+                        <email_configuration>None</email_configuration>
+                        <enable_barcode>None</enable_barcode>
+                        <fieldId>[]</fieldId>
+                        <file_name />
+                        <file_name_array>[]</file_name_array>
+                        <help_text>False</help_text>
+                        <icon>{}</icon>
+                        <image_origin>None</image_origin>
+                        <input_parameter>[]</input_parameter>
+                        <max>None</max>
+                        <max_images_count>5</max_images_count>
+                        <metadata>[]</metadata>
+                        <method />
+                        <mime_types>[]</mime_types>
+                        <min>None</min>
+                        <min_images_count>0</min_images_count>
+                        <multi_selection>False</multi_selection>
+                        <notification>{}</notification>
+                        <number_of_decimals>2</number_of_decimals>
+                        <openChoice>False</openChoice>
+                        <parameters>[]</parameters>
+                        <pfd_print>always</pfd_print>
+                        <pfd_style>Tabla_respuestas</pfd_style>
+                        <selected>None</selected>
+                        <send_email>False</send_email>
+                        <send_record>False</send_record>
+                        <send_to_lkf>False</send_to_lkf>
+                        <service_name />
+                        <update_values>{}</update_values>
+                        <url />
+                        <visible_on />
+                        <wait_response>False</wait_response>
+                        <watermark_config>None</watermark_config>
+                        <watermark_enable>False</watermark_enable>
+                    </properties>
+                    <required>False</required>
+                    <rules>[]</rules>
+                    <show_for_rule>True</show_for_rule>
+                    <validations>{}</validations>
+                    <visible>True</visible>
+                </item>
+                <item>
+                    <affecting_rules>[]</affecting_rules>
+                    <buttons_ids>[]</buttons_ids>
+                    <catalog>
+                        <catalog_field_id>{{ catalog.catalogo_de_proyectos.obj_id }}</catalog_field_id>
+                        <catalog_id>{{ catalog.catalogo_de_proyectos.id }}</catalog_id>
+                        <field_type>text</field_type>
+                        <filters />
+                        <geofence>None</geofence>
+                        <last>False</last>
+                        <related_catalog>{}</related_catalog>
+                        <view_fields>[]</view_fields>
+                        <view_index>2</view_index>
+                    </catalog>
+                    <catalog_fields>[]</catalog_fields>
+                    <catalog_relation>None</catalog_relation>
+                    <default>False</default>
+                    <default_value />
+                    <descriptor>None</descriptor>
+                    <fav>False</fav>
+                    <field_id>62bf232626827cd253f9db16</field_id>
+                    <field_type>catalog-detail</field_type>
                     <grading_criteria>{}</grading_criteria>
                     <group>None</group>
                     <groups_fields>[]</groups_fields>
@@ -1567,7 +1673,7 @@
                         <watermark_config>None</watermark_config>
                         <watermark_enable>False</watermark_enable>
                     </properties>
-                    <required>True</required>
+                    <required>False</required>
                     <rules>[]</rules>
                     <show_for_rule>True</show_for_rule>
                     <validations>{}</validations>
@@ -1577,10 +1683,10 @@
                     <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>
-                        <catalog_field_id>{{ catalog.responsables_de_autorizar_gastos.obj_id }}</catalog_field_id>
-                        <catalog_id>{{ catalog.responsables_de_autorizar_gastos.id }}</catalog_id>
+                        <catalog_field_id>{{ catalog.catalogo_de_proyectos.obj_id }}</catalog_field_id>
+                        <catalog_id>{{ catalog.catalogo_de_proyectos.id }}</catalog_id>
                         <field_type>email</field_type>
-                        <filters>None</filters>
+                        <filters />
                         <geofence>None</geofence>
                         <last>False</last>
                         <related_catalog>{}</related_catalog>
@@ -1717,7 +1823,9 @@
                 </item>
                 <item>
                     <affecting_rules>[]</affecting_rules>
-                    <buttons_ids>[]</buttons_ids>
+                    <buttons_ids>
+                        <item>64bed87e2736450a937a3eb7</item>
+                    </buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
                     <catalog_relation>None</catalog_relation>
@@ -1753,16 +1861,10 @@
                             <value>vencida</value>
                         </item>
                         <item>
-                            <label>Pendiente Autorizacion</label>
+                            <label>Revisión de gastos</label>
                             <points>None</points>
                             <selected>False</selected>
-                            <value>pendiente_autorizacion</value>
-                        </item>
-                        <item>
-                            <label>Pago Pendiente</label>
-                            <points>None</points>
-                            <selected>False</selected>
-                            <value>pago_pendiente</value>
+                            <value>revisión_de_gastos</value>
                         </item>
                         <item>
                             <label>Cerrada</label>
@@ -1813,31 +1915,13 @@
                         <watermark_enable>False</watermark_enable>
                     </properties>
                     <required>True</required>
-                    <rules>
-                        <item>219d184f14861521</item>
-                        <item>177b12a5fcc1d46</item>
-                        <item>1743ade1111f8b</item>
-                        <item>1743ade1111f8b</item>
-                    </rules>
+                    <rules>[]</rules>
                     <show_for_rule>True</show_for_rule>
                     <validations>{}</validations>
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>219d184f14861521</rule_id>
-                            <rule_index>0</rule_index>
-                            <rule_type>show</rule_type>
-                        </item>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>177b12a5fcc1d46</rule_id>
-                            <rule_index>1</rule_index>
-                            <rule_type>required</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -1903,14 +1987,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>219d184f14861521</rule_id>
-                            <rule_index>0</rule_index>
-                            <rule_type>show</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -1976,14 +2053,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>
                         <catalog_field_id>None</catalog_field_id>
@@ -2069,14 +2139,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>
                         <catalog_field_id>{{ catalog.solicitudes_de_gastos.obj_id }}</catalog_field_id>
@@ -2608,14 +2671,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -2635,7 +2691,7 @@
                         <item>aaaa1fa92c20405af671d122</item>
                         <item>62aa1fa92c20405af671d122</item>
                         <item>627bf0d5c651931d3c7eedd3</item>
-                        <item>64bd5ee1f3eeaac79345e029</item>
+                        <item>64c951658cd9e4736404cef0</item>
                         <item>649b2a84dac4914e02aadb24</item>
                         <item>62aa1fa92c20405af671d124</item>
                     </groups_fields>
@@ -2691,14 +2747,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -2760,21 +2809,14 @@
                         <watermark_config>None</watermark_config>
                         <watermark_enable>False</watermark_enable>
                     </properties>
-                    <required>True</required>
+                    <required>False</required>
                     <rules>[]</rules>
                     <show_for_rule>True</show_for_rule>
                     <validations>{}</validations>
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -2843,14 +2885,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -2919,14 +2954,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -2995,14 +3023,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -3071,14 +3092,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -3147,14 +3161,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>
                         <catalog_field_id>None</catalog_field_id>
@@ -3237,14 +3244,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>
                         <catalog_field_id>{{ catalog.conceptos_de_gastos.obj_id }}</catalog_field_id>
@@ -3323,14 +3323,7 @@
                     <visible>True</visible>
                 </item>
                 <item>
-                    <affecting_rules>
-                        <item>
-                            <applied>False</applied>
-                            <rule_id>253248214873ed</rule_id>
-                            <rule_index>5</rule_index>
-                            <rule_type>invisible</rule_type>
-                        </item>
-                    </affecting_rules>
+                    <affecting_rules>[]</affecting_rules>
                     <buttons_ids>[]</buttons_ids>
                     <catalog>None</catalog>
                     <catalog_fields>[]</catalog_fields>
@@ -3435,7 +3428,81 @@
         </item>
         <item>
             <page_description />
-            <page_fields>[]</page_fields>
+            <page_fields>
+                <item>
+                    <affecting_rules>[]</affecting_rules>
+                    <buttons_ids>[]</buttons_ids>
+                    <catalog>None</catalog>
+                    <catalog_fields>[]</catalog_fields>
+                    <catalog_relation>None</catalog_relation>
+                    <default>False</default>
+                    <default_value />
+                    <descriptor>None</descriptor>
+                    <fav>False</fav>
+                    <field_id>64bed87e2736450a937a3eb7</field_id>
+                    <field_type>button</field_type>
+                    <grading_criteria>{}</grading_criteria>
+                    <group>None</group>
+                    <groups_fields>[]</groups_fields>
+                    <help_text>None</help_text>
+                    <label>Autorizar</label>
+                    <number_type>None</number_type>
+                    <options>[]</options>
+                    <properties>
+                        <body_payload>[]</body_payload>
+                        <color>#1E8449</color>
+                        <comment />
+                        <custom />
+                        <elements_ids>[]</elements_ids>
+                        <email_configuration>None</email_configuration>
+                        <enable_barcode>None</enable_barcode>
+                        <fieldId>[]</fieldId>
+                        <file_name />
+                        <file_name_array>[]</file_name_array>
+                        <help_text>False</help_text>
+                        <icon>
+                            <css_class>fa-check</css_class>
+                            <name>check</name>
+                            <unicode>f00c</unicode>
+                        </icon>
+                        <image_origin>None</image_origin>
+                        <input_parameter>[]</input_parameter>
+                        <max>None</max>
+                        <max_images_count>5</max_images_count>
+                        <metadata>[]</metadata>
+                        <method>POST</method>
+                        <mime_types>[]</mime_types>
+                        <min>None</min>
+                        <min_images_count>0</min_images_count>
+                        <multi_selection>False</multi_selection>
+                        <notification>{}</notification>
+                        <number_of_decimals>2</number_of_decimals>
+                        <openChoice>False</openChoice>
+                        <parameters>[]</parameters>
+                        <pfd_print>always</pfd_print>
+                        <pfd_style>Tabla_respuestas</pfd_style>
+                        <selected>None</selected>
+                        <send_email>False</send_email>
+                        <send_record>False</send_record>
+                        <send_to_lkf>False</send_to_lkf>
+                        <service_name />
+                        <update_values>
+                            <num_61041d15d9ee55ab14965bb6>autorizado</num_61041d15d9ee55ab14965bb6>
+                            <num_62aa1fa92c20405af671d124>None</num_62aa1fa92c20405af671d124>
+                        </update_values>
+                        <url />
+                        <visible_on>edit-preview</visible_on>
+                        <wait_response>False</wait_response>
+                        <watermark_config>None</watermark_config>
+                        <watermark_enable>False</watermark_enable>
+                    </properties>
+                    <required>False</required>
+                    <rules>[]</rules>
+                    <show_for_rule>True</show_for_rule>
+                    <validations>{}</validations>
+                    <visible>True</visible>
+                </item>
+            </page_fields>
             <page_name>Buttons</page_name>
             <page_type>buttons</page_type>
         </item>
@@ -3452,7 +3519,7 @@
     </notification>
     <process_ids>[]</process_ids>
     <public>False</public>
-    <resource_uri>/api/infosync/form/105519/</resource_uri>
+    <resource_uri>/api/infosync/form/106265/</resource_uri>
     <start_event_id>None</start_event_id>
     <template_conf>
         <account_id>None</account_id>
@@ -3472,5 +3539,5 @@
         <seconds_to_expire>None</seconds_to_expire>
         <welcome_text>None</welcome_text>
     </timer_config>
-    <updated_at>1690146964.0</updated_at>
+    <updated_at>1690925741.0</updated_at>
 </lkf>

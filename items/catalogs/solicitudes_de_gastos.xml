@@ -7,16 +7,26 @@
         <redirect_url>default</redirect_url>
     </confirmation>
     <description />
-    <_rev>8-181bf2c1c91e1e8aa31f1fc4bbdb8ab5</_rev>
-    <updated_at>2023-07-23T17:10:02.161743+00:00Z</updated_at>
+    <_rev>7-da258112e4b00831adb50394c9f591ec</_rev>
+    <updated_at>2023-08-01T18:39:37.602431+00:00Z</updated_at>
     <sync>
         <element_request>{}</element_request>
         <input_parameters>[]</input_parameters>
     </sync>
-    <filters>{}</filters>
+    <filters>
+        <ViajesAbiertos>
+            <amp_and>
+                <item>
+                    <num_610419b5d28657c73e36fcd7>
+                        <amp_eq>Abierto</amp_eq>
+                    </num_610419b5d28657c73e36fcd7>
+                </item>
+            </amp_and>
+        </ViajesAbiertos>
+    </filters>
     <name>Solicitudes de Gastos</name>
     <edit_public_records>False</edit_public_records>
-    <created_at>2023-07-23T17:10:02.161743+00:00Z</created_at>
+    <created_at>2023-08-01T18:39:37.602431+00:00Z</created_at>
     <advanced_options>
         <active>True</active>
         <folio>
@@ -25,6 +35,10 @@
             <config>False</config>
         </folio>
     </advanced_options>
+    <catalog_id>106258</catalog_id>
+    <sync_last_update>None</sync_last_update>
+    <_id>64c951690ad3234e72f26a5a</_id>
+    <public>False</public>
     <catalog_pages>
         <item>
             <page_fields>
@@ -555,8 +569,4 @@
             <page_name>Página 1</page_name>
         </item>
     </catalog_pages>
-    <sync_last_update>None</sync_last_update>
-    <_id>64bd5eeaf3eeaac79345e02f</_id>
-    <public>False</public>
-    <catalog_id>105514</catalog_id>
 </lkf>

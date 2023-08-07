@@ -1,61 +1,33 @@
 <?xml version='1.0' encoding='utf-8'?>
 <lkf>
-    <form_id>{{ form.entrega_de_efectivo.id }}</form_id>
-    <id>64bee0e51c0d42542478e0cc</id>
+    <form_id>{{ form.entrega_de_anticipo.id }}</form_id>
+    <id>649e1d857880ff495300bfae</id>
     <workflows>
         <item>
             <actions>
                 <item>
-                    <_id>64bee11d0c2899258e1822f5</_id>
+                    <_id>649e245d7880ff495300c110</_id>
                     <action_id>7</action_id>
                     <action_settings>{}</action_settings>
                     <configuration>
-                        <arguments>{}</arguments>
-                        <integration>None</integration>
                         <script>
-                            <created_at>2023-07-24T18:13:36.056471</created_at>
+                            <created_at>2023-06-29T06:08:27.114565</created_at>
                             <deleted_at>None</deleted_at>
                             <end_date>None</end_date>
                             <id>{{ script.entrega_efectivo.id }}</id>
                             <is_fileShared>False</is_fileShared>
                             <itype>script</itype>
                             <name>{{ script.entrega_efectivo.name }}</name>
-                            <start_date>2023-07-24T18:13:36.054878</start_date>
-                            <updated_at>2023-07-24T18:13:36.353846</updated_at>
+                            <start_date>2023-06-29T06:08:27.113188</start_date>
+                            <updated_at>2023-06-29T22:24:31.251508</updated_at>
                         </script>
-                        <scriptArguments>
-                            <item>
-                                <label>None</label>
-                                <value>None</value>
-                            </item>
-                        </scriptArguments>
-                        <scriptQuery>None</scriptQuery>
-                        <selectedUser>None</selectedUser>
                         <user>SCRIPT_OWNER</user>
-                        <userOptions>
-                            <item>
-                                <id>SCRIPT_OWNER</id>
-                                <name>Dueño del script</name>
-                            </item>
-                            <item>
-                                <id>FORM_OWNER</id>
-                                <name>Dueño de la forma</name>
-                            </item>
-                            <item>
-                                <id>OWNER_ACCOUNT_EMAIL</id>
-                                <name>Dueño de la cuenta</name>
-                            </item>
-                            <item>
-                                <id>RECORD_USER</id>
-                                <name>Usuario que contesta</name>
-                            </item>
-                        </userOptions>
                     </configuration>
-                    <name>Ejecuta script</name>
+                    <name>entrega de efectivo</name>
                 </item>
             </actions>
-            <id>64bee11d0c2899258e1822f7</id>
-            <name>entrega de efectivo</name>
+            <id>649e1d857880ff495300bfa8</id>
+            <name>Entrega de Efectivo</name>
             <rules>
                 <metadata>
                     <connection>[]</connection>
@@ -66,9 +38,9 @@
                             <year>2014</year>
                         </period>
                         <range>
-                            <end>2023-07-25T06:00:00.000Z</end>
+                            <end>2023-06-30T06:00:00.000Z</end>
                             <selected>False</selected>
-                            <start>2023-07-24T20:35:48.164Z</start>
+                            <start>2023-06-30T00:09:59.069Z</start>
                         </range>
                     </date>
                     <grading>{}</grading>
@@ -119,55 +91,27 @@
         <item>
             <actions>
                 <item>
-                    <_id>64bee11d0c2899258e1822f6</_id>
+                    <_id>649e1f2f7880ff495300c032</_id>
                     <action_id>7</action_id>
                     <action_settings>{}</action_settings>
                     <configuration>
-                        <arguments>{}</arguments>
-                        <integration>None</integration>
                         <script>
-                            <created_at>2023-07-24T18:13:40.243601</created_at>
+                            <created_at>2023-06-29T04:47:09.404596</created_at>
                             <deleted_at>None</deleted_at>
                             <end_date>None</end_date>
                             <id>{{ script.update_entrega_efectivo.id }}</id>
                             <is_fileShared>False</is_fileShared>
                             <itype>script</itype>
                             <name>{{ script.update_entrega_efectivo.name }}</name>
-                            <start_date>2023-07-24T18:13:40.241820</start_date>
-                            <updated_at>2023-07-24T18:13:40.510986</updated_at>
+                            <start_date>2023-06-29T04:47:09.403632</start_date>
+                            <updated_at>2023-06-29T23:39:51.353916</updated_at>
                         </script>
-                        <scriptArguments>
-                            <item>
-                                <label>None</label>
-                                <value>None</value>
-                            </item>
-                        </scriptArguments>
-                        <scriptQuery>None</scriptQuery>
-                        <selectedUser>None</selectedUser>
                         <user>SCRIPT_OWNER</user>
-                        <userOptions>
-                            <item>
-                                <id>SCRIPT_OWNER</id>
-                                <name>Dueño del script</name>
-                            </item>
-                            <item>
-                                <id>FORM_OWNER</id>
-                                <name>Dueño de la forma</name>
-                            </item>
-                            <item>
-                                <id>OWNER_ACCOUNT_EMAIL</id>
-                                <name>Dueño de la cuenta</name>
-                            </item>
-                            <item>
-                                <id>RECORD_USER</id>
-                                <name>Usuario que contesta</name>
-                            </item>
-                        </userOptions>
                     </configuration>
                     <name>None</name>
                 </item>
             </actions>
-            <id>64bee11d0c2899258e1822fa</id>
+            <id>649e1f2f7880ff495300c036</id>
             <name>Actualiza Folio</name>
             <rules>
                 <metadata>
@@ -179,9 +123,9 @@
                             <year>2014</year>
                         </period>
                         <range>
-                            <end>2023-07-25T06:00:00.000Z</end>
+                            <end>2023-06-30T06:00:00.000Z</end>
                             <selected>False</selected>
-                            <start>2023-07-24T20:35:48.164Z</start>
+                            <start>2023-06-30T00:17:29.811Z</start>
                         </range>
                     </date>
                     <grading>{}</grading>

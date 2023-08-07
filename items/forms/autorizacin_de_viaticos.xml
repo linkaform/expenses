@@ -14,7 +14,7 @@
         <message>¡Su información fue capturada!</message>
         <redirect_url>default</redirect_url>
     </confirmation>
-    <created_at>1690132204.0</created_at>
+    <created_at>1690915181.0</created_at>
     <description />
     <edit_public_records>False</edit_public_records>
     <edit_registers>True</edit_registers>
@@ -132,7 +132,7 @@
                         <catalog_field_id>{{ catalog.responsables_de_autorizar_gastos.obj_id }}</catalog_field_id>
                         <catalog_id>{{ catalog.responsables_de_autorizar_gastos.id }}</catalog_id>
                         <field_type>text</field_type>
-                        <filters />
+                        <filters>None</filters>
                         <geofence>None</geofence>
                         <last>True</last>
                         <related_catalog>{}</related_catalog>
@@ -208,7 +208,7 @@
                         <catalog_field_id>{{ catalog.responsables_de_autorizar_gastos.obj_id }}</catalog_field_id>
                         <catalog_id>{{ catalog.responsables_de_autorizar_gastos.id }}</catalog_id>
                         <field_type>email</field_type>
-                        <filters />
+                        <filters>None</filters>
                         <geofence>None</geofence>
                         <last>False</last>
                         <related_catalog>{}</related_catalog>
@@ -367,7 +367,7 @@
                         <catalog_field_id>{{ catalog.catalogo_de_empleados.obj_id }}</catalog_field_id>
                         <catalog_id>{{ catalog.catalogo_de_empleados.id }}</catalog_id>
                         <field_type>text</field_type>
-                        <filters />
+                        <filters>None</filters>
                         <geofence>None</geofence>
                         <last>True</last>
                         <related_catalog>{}</related_catalog>
@@ -443,7 +443,7 @@
                         <catalog_field_id>{{ catalog.catalogo_de_empleados.obj_id }}</catalog_field_id>
                         <catalog_id>{{ catalog.catalogo_de_empleados.id }}</catalog_id>
                         <field_type>text</field_type>
-                        <filters />
+                        <filters>None</filters>
                         <geofence>None</geofence>
                         <last>False</last>
                         <related_catalog>{}</related_catalog>
@@ -519,7 +519,7 @@
                         <catalog_field_id>{{ catalog.catalogo_de_empleados.obj_id }}</catalog_field_id>
                         <catalog_id>{{ catalog.catalogo_de_empleados.id }}</catalog_id>
                         <field_type>text</field_type>
-                        <filters />
+                        <filters>None</filters>
                         <geofence>None</geofence>
                         <last>False</last>
                         <related_catalog>{}</related_catalog>
@@ -595,7 +595,7 @@
                         <catalog_field_id>{{ catalog.catalogo_de_empleados.obj_id }}</catalog_field_id>
                         <catalog_id>{{ catalog.catalogo_de_empleados.id }}</catalog_id>
                         <field_type>email</field_type>
-                        <filters />
+                        <filters>None</filters>
                         <geofence>None</geofence>
                         <last>False</last>
                         <related_catalog>{}</related_catalog>
@@ -1695,7 +1695,7 @@
                         <item>aaaa1fa92c20405af671d122</item>
                         <item>62aa1fa92c20405af671d122</item>
                         <item>627bf0d5c651931d3c7eedd3</item>
-                        <item>64bd5ee1f3eeaac79345e029</item>
+                        <item>64c951658cd9e4736404cef0</item>
                         <item>649b2a84dac4914e02aadb24</item>
                         <item>5893798cb43fdd4b53ab6e1e</item>
                         <item>583d8e10b43fdd6a4887f55c</item>
@@ -3133,7 +3133,7 @@
     </notification>
     <process_ids>[]</process_ids>
     <public>False</public>
-    <resource_uri>/api/infosync/form/105515/</resource_uri>
+    <resource_uri>/api/infosync/form/106260/</resource_uri>
     <start_event_id>None</start_event_id>
     <template_conf>
         <account_id>None</account_id>
@@ -3153,5 +3153,5 @@
         <seconds_to_expire>None</seconds_to_expire>
         <welcome_text>None</welcome_text>
     </timer_config>
-    <updated_at>1690218528.0</updated_at>
+    <updated_at>1690916549.0</updated_at>
 </lkf>
