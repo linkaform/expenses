@@ -3,8 +3,8 @@
     <templates>[]</templates>
     <confirmation>{}</confirmation>
     <description />
-    <_rev>4-d7a98ad148074928d0114c1e708152a7</_rev>
-    <updated_at>2023-08-01T18:39:33.955163+00:00Z</updated_at>
+    <_rev>5-41907f9f975994e4950791bdbf138f91</_rev>
+    <updated_at>2023-08-21T23:32:24.139245+00:00Z</updated_at>
     <sync>
         <element_request>{}</element_request>
         <input_parameters>[]</input_parameters>
@@ -12,8 +12,12 @@
     <filters>{}</filters>
     <name>Conceptos de Gastos</name>
     <edit_public_records>False</edit_public_records>
-    <created_at>2023-08-01T18:39:33.955163+00:00Z</created_at>
+    <created_at>2023-08-21T23:32:24.139245+00:00Z</created_at>
     <advanced_options>{}</advanced_options>
+    <catalog_id>107246</catalog_id>
+    <sync_last_update>None</sync_last_update>
+    <_id>64e3f408da4d6cc6941e7830</_id>
+    <public>False</public>
     <catalog_pages>
         <item>
             <page_fields>
@@ -64,8 +68,4 @@
             <page_name>Página 1</page_name>
         </item>
     </catalog_pages>
-    <sync_last_update>None</sync_last_update>
-    <_id>64c951658cd9e4736404cef0</_id>
-    <public>False</public>
-    <catalog_id>106255</catalog_id>
 </lkf>

@@ -7,8 +7,8 @@
         <redirect_url>default</redirect_url>
     </confirmation>
     <description />
-    <_rev>4-0bdb5f8b8ac28e23e63da07987a060fb</_rev>
-    <updated_at>2023-08-01T18:39:34.633083+00:00Z</updated_at>
+    <_rev>5-13c09ef49c394b5cd65956116a6db724</_rev>
+    <updated_at>2023-08-21T23:32:26.609849+00:00Z</updated_at>
     <sync>
         <element_request>{}</element_request>
         <input_parameters>[]</input_parameters>
@@ -16,7 +16,7 @@
     <filters>{}</filters>
     <name>Moneda</name>
     <edit_public_records>False</edit_public_records>
-    <created_at>2023-08-01T18:39:34.633083+00:00Z</created_at>
+    <created_at>2023-08-21T23:32:26.609849+00:00Z</created_at>
     <advanced_options>
         <active>True</active>
         <folio>
@@ -25,6 +25,10 @@
             <config>False</config>
         </folio>
     </advanced_options>
+    <catalog_id>107247</catalog_id>
+    <sync_last_update>None</sync_last_update>
+    <_id>64e3f40ada4d6cc6941e7832</_id>
+    <public>False</public>
     <catalog_pages>
         <item>
             <page_fields>
@@ -55,8 +59,4 @@
             <page_name>Página 1</page_name>
         </item>
     </catalog_pages>
-    <sync_last_update>None</sync_last_update>
-    <_id>64c95166a1050af76796aad4</_id>
-    <public>False</public>
-    <catalog_id>106256</catalog_id>
 </lkf>

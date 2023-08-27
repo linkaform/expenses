@@ -3,8 +3,8 @@
     <templates>[]</templates>
     <confirmation>{}</confirmation>
     <description />
-    <_rev>2-51fbf0fe10c7b2ea33a15e7ecf3a3329</_rev>
-    <updated_at>2023-08-01T21:31:31.977884+00:00Z</updated_at>
+    <_rev>5-0b7f07b939cd6beab31f129a9edaeeed</_rev>
+    <updated_at>2023-08-21T23:32:23.634983+00:00Z</updated_at>
     <sync>
         <element_request>{}</element_request>
         <input_parameters>[]</input_parameters>
@@ -12,8 +12,12 @@
     <filters>{}</filters>
     <name>Catalogo de Proyectos</name>
     <edit_public_records>False</edit_public_records>
-    <created_at>2023-08-01T21:31:31.977884+00:00Z</created_at>
+    <created_at>2023-08-21T23:32:23.634983+00:00Z</created_at>
     <advanced_options>{}</advanced_options>
+    <catalog_id>107245</catalog_id>
+    <sync_last_update>None</sync_last_update>
+    <_id>64e3f407da4d6cc6941e782e</_id>
+    <public>False</public>
     <catalog_pages>
         <item>
             <page_fields>
@@ -74,7 +78,7 @@
                     <label>Responsable de autorizar</label>
                     <catalog>
                         <catalog_fields>[]</catalog_fields>
-                        <filters />
+                        <filters>None</filters>
                         <view_index>0</view_index>
                         <catalog_field_id>None</catalog_field_id>
                         <catalog_id>{{ catalog.responsables_de_autorizar_gastos.id }}</catalog_id>
@@ -91,8 +95,13 @@
                 <item>
                     <field_type>catalog-select</field_type>
                     <properties>{}</properties>
-                    <required>False</required>
+                    <key>None</key>
+                    <catalog_fields>[]</catalog_fields>
                     <field_id>62bf232626827cd253f9db16</field_id>
+                    <required>False</required>
+                    <fav>None</fav>
+                    <related_catalog_key>[]</related_catalog_key>
+                    <relation_type>None</relation_type>
                     <label>Nombre</label>
                     <catalog>
                         <catalog_fields>[]</catalog_fields>
@@ -102,15 +111,23 @@
                         <view_index>1</view_index>
                         <catalog_field_id>{{ catalog.responsables_de_autorizar_gastos.obj_id }}</catalog_field_id>
                         <catalog_id>{{ catalog.responsables_de_autorizar_gastos.id }}</catalog_id>
-                        <filters />
+                        <filters>None</filters>
                     </catalog>
+                    <catalog_id>None</catalog_id>
+                    <view_fields>[]</view_fields>
                     <options>[]</options>
+                    <related_catalog>None</related_catalog>
                 </item>
                 <item>
                     <field_type>catalog-detail</field_type>
                     <properties>{}</properties>
-                    <required>False</required>
+                    <key>None</key>
+                    <catalog_fields>[]</catalog_fields>
                     <field_id>62bf232626827cd253f9db17</field_id>
+                    <required>False</required>
+                    <fav>None</fav>
+                    <related_catalog_key>[]</related_catalog_key>
+                    <relation_type>None</relation_type>
                     <label>Correo electrónico</label>
                     <catalog>
                         <catalog_fields>[]</catalog_fields>
@@ -119,17 +136,16 @@
                         <view_index>0</view_index>
                         <catalog_field_id>{{ catalog.responsables_de_autorizar_gastos.obj_id }}</catalog_field_id>
                         <catalog_id>{{ catalog.responsables_de_autorizar_gastos.id }}</catalog_id>
-                        <filters />
+                        <filters>None</filters>
                     </catalog>
+                    <catalog_id>None</catalog_id>
+                    <view_fields>[]</view_fields>
                     <options>[]</options>
+                    <related_catalog>None</related_catalog>
                 </item>
             </page_fields>
             <page_description>None</page_description>
             <page_name>Página 1</page_name>
         </item>
     </catalog_pages>
-    <sync_last_update>None</sync_last_update>
-    <_id>64c979b37988241b10c14066</_id>
-    <public>False</public>
-    <catalog_id>106271</catalog_id>
 </lkf>

@@ -1,10 +1,11 @@
 # -*- coding: utf-8 -*-
 import sys, wget, bson, simplejson
 from datetime import datetime, date
+
+#from expense_utils import Expenses
+from lkf_addons.addons.expenses.expense_utils import Expenses
+
 from account_settings import *
-
-from expense_utils import Expenses
-
 
 class Expenses(Expenses):
 

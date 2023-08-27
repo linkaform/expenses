@@ -16,4 +16,4 @@ if __name__ == '__main__':
     config['JWT_KEY'] = jwt_complete['jwt'].split(' ')[1]
     settings.config.update(config)
     expense_obj = Expenses(settings)
-    expense_obj.create_expense_authorization(folio=current_record.get('folio'))
+    expense_obj.update_solicitud(folio=current_record.get('folio'))

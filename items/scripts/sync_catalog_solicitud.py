@@ -3,10 +3,12 @@ import sys, simplejson
 from datetime import datetime
 from copy import deepcopy
 
-from linkaform_api import utils, network, lkf_models
+from lkf_addons.addons.expenses.expense_utils import Expenses
+#from linkaform_api import utils, network, lkf_models
+#from expense_utils import Expenses
+
 from account_settings import *
 
-from expense_utils import Expenses
 
 
 if __name__ == '__main__':

@@ -27,7 +27,7 @@
                 </item>
             </fields_ruled>
             <group_conditions>{}</group_conditions>
-            <name>Mostrar Tipo de Alimentos</name>
+            <name>Mostrar Tipo de Alimentosaa</name>
             <operator>and</operator>
             <rule_id>13731e92f6ef67</rule_id>
             <rule_type>show</rule_type>

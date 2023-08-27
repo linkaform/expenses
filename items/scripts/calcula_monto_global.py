@@ -1,7 +1,11 @@
 # -*- coding: utf-8 -*-
 import sys, wget, bson, simplejson
+
 #from linkaform_api import settings, utils
+
 from account_settings import *
+
+
 
 def read_current_record_from_txt(file_url):
     name_downloded = download_pdf( file_url, is_txt=True )
@@ -16,6 +20,8 @@ def download_pdf(file_url, is_txt=False):
     return oc_name
 
 if __name__ == '__main__':
+    print('pirnt this file is depricaded')
+    print(stop_depricated)
     current_record = simplejson.loads(sys.argv[1])
     total_global = 0
     

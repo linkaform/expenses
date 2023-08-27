@@ -120,7 +120,7 @@
                                 </etl>
                                 <input>
                                     <type>value_to_field</type>
-                                    <value>Abierto</value>
+                                    <value>Autorizado</value>
                                 </input>
                                 <output>
                                     <id>610419b5d28657c73e36fcd7</id>
@@ -269,7 +269,7 @@
                     <created>True</created>
                     <deleted>False</deleted>
                     <edited>True</edited>
-                    <run_multiple_times>True</run_multiple_times>
+                    <run_multiple_times>False</run_multiple_times>
                     <runtime>after</runtime>
                 </record>
                 <wf_fields>
@@ -436,7 +436,7 @@
                                 </etl>
                                 <input>
                                     <field_type>decimal</field_type>
-                                    <id>649ccd3e7880ff495300bca5</id>
+                                    <id>544d5ad901a4de205f392000</id>
                                     <type>field_to_field</type>
                                     <value>None</value>
                                 </input>
@@ -450,7 +450,7 @@
                                 </etl>
                                 <input>
                                     <type>value_to_field</type>
-                                    <value>pendiente</value>
+                                    <value>en_proceso</value>
                                 </input>
                                 <output>
                                     <id>544d5b4e01a4de205e2b2169</id>
@@ -533,18 +533,18 @@
                             <value>autorizado</value>
                         </item>
                         <item>
-                            <condition>not__empty=</condition>
+                            <condition>gt__number=</condition>
                             <form_id>None</form_id>
                             <other_value>None</other_value>
                             <prefix>answer</prefix>
                             <trigger_field>
                                 <catalog>{}</catalog>
-                                <field_id>649ccd3e7880ff495300bca5</field_id>
+                                <field_id>544d5ad901a4de205f392000</field_id>
                                 <group>{}</group>
-                                <label>Antipo en efectivo al empleado Solicitado</label>
+                                <label>Antipo en efectivo Solicitado</label>
                                 <type>decimal</type>
                             </trigger_field>
-                            <value>NaN</value>
+                            <value>0</value>
                         </item>
                     </triggers>
                 </wf_fields>
@@ -615,7 +615,7 @@
                                 <label>Status</label>
                                 <type>select</type>
                             </trigger_field>
-                            <value>revisión_de_gastos</value>
+                            <value>en_autorizacion</value>
                         </item>
                     </triggers>
                 </wf_fields>
@@ -668,7 +668,7 @@
                     <created>True</created>
                     <deleted>False</deleted>
                     <edited>True</edited>
-                    <run_multiple_times>True</run_multiple_times>
+                    <run_multiple_times>False</run_multiple_times>
                     <runtime>before</runtime>
                 </record>
                 <wf_fields>

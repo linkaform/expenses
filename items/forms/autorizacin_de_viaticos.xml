@@ -14,7 +14,7 @@
         <message>¡Su información fue capturada!</message>
         <redirect_url>default</redirect_url>
     </confirmation>
-    <created_at>1690915181.0</created_at>
+    <created_at>1692850849.0</created_at>
     <description />
     <edit_public_records>False</edit_public_records>
     <edit_registers>True</edit_registers>
@@ -940,7 +940,7 @@
                     <group>None</group>
                     <groups_fields>[]</groups_fields>
                     <help_text>None</help_text>
-                    <label>Fecha de Salida</label>
+                    <label>Fecha de Desde</label>
                     <number_type>None</number_type>
                     <options>[]</options>
                     <properties>
@@ -1006,7 +1006,7 @@
                     <group>None</group>
                     <groups_fields>[]</groups_fields>
                     <help_text>None</help_text>
-                    <label>Fecha de Regreso</label>
+                    <label>Fecha de Hasta</label>
                     <number_type>None</number_type>
                     <options>[]</options>
                     <properties>
@@ -1695,7 +1695,7 @@
                         <item>aaaa1fa92c20405af671d122</item>
                         <item>62aa1fa92c20405af671d122</item>
                         <item>627bf0d5c651931d3c7eedd3</item>
-                        <item>64c951658cd9e4736404cef0</item>
+                        <item>64e6da9575eab52e0956b0d3</item>
                         <item>649b2a84dac4914e02aadb24</item>
                         <item>5893798cb43fdd4b53ab6e1e</item>
                         <item>583d8e10b43fdd6a4887f55c</item>
@@ -2360,34 +2360,28 @@
                             <value>efectivo_-_debito</value>
                         </item>
                         <item>
+                            <label>Tarjeta Credito</label>
+                            <points>None</points>
+                            <selected>False</selected>
+                            <value>tarjeta_credito</value>
+                        </item>
+                        <item>
                             <label>Transferencia</label>
                             <points>None</points>
                             <selected>False</selected>
                             <value>transferencia</value>
                         </item>
                         <item>
-                            <label>American Express</label>
-                            <points>None</points>
-                            <selected>False</selected>
-                            <value>american_express</value>
-                        </item>
-                        <item>
-                            <label>Visa</label>
-                            <points>None</points>
-                            <selected>False</selected>
-                            <value>visa</value>
-                        </item>
-                        <item>
-                            <label>Mater Card</label>
-                            <points>None</points>
-                            <selected>False</selected>
-                            <value>mater_card</value>
-                        </item>
-                        <item>
-                            <label>Deposito a cuenta o trajeta de debito</label>
+                            <label>Deposito A Cuenta o Trajeta de Debito</label>
                             <points>None</points>
                             <selected>False</selected>
                             <value>deposito_a_cuenta_o_trajeta_de_debito</value>
+                        </item>
+                        <item>
+                            <label>Entrega de Efectivo</label>
+                            <points>None</points>
+                            <selected>False</selected>
+                            <value>entrega_de_efectivo</value>
                         </item>
                     </options>
                     <properties>
@@ -3133,7 +3127,7 @@
     </notification>
     <process_ids>[]</process_ids>
     <public>False</public>
-    <resource_uri>/api/infosync/form/106260/</resource_uri>
+    <resource_uri>/api/infosync/form/107526/</resource_uri>
     <start_event_id>None</start_event_id>
     <template_conf>
         <account_id>None</account_id>
@@ -3153,5 +3147,5 @@
         <seconds_to_expire>None</seconds_to_expire>
         <welcome_text>None</welcome_text>
     </timer_config>
-    <updated_at>1690916549.0</updated_at>
+    <updated_at>1692852466.0</updated_at>
 </lkf>

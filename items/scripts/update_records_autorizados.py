@@ -1,9 +1,11 @@
 # -*- coding: utf-8 -*-
 import sys, simplejson
-# from linkaform_api import settings, network, utils
+
+from lkf_addons.addons.expenses.expense_utils import Expenses
+#from expense_utils import Expenses
+
 from account_settings import *
 
-from expense_utils import Expenses
 
 
 class LocalExpenses(Expenses):
@@ -33,6 +35,7 @@ if __name__ == '__main__':
     # expense_obj = Expenses(settings)
     local_exp  = LocalExpenses(settings)
     current_record['answers'] = local_exp.update_autorization_records(answers)
+    print('answers to update=', current_record['answers'])
     sys.stdout.write(simplejson.dumps({
         'status': 101,
         'replace_ans': current_record['answers']
